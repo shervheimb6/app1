@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/background_app_newegg" >
 
     <Button
         android:id="@+id/chat_button"
@@ -12,3 +13,5 @@
         android:text="@string/chat_button" />
 
 </LinearLayout>
+
+
